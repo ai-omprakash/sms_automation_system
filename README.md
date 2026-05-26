@@ -191,6 +191,11 @@ uvicorn main:app --reload --port 8000
 Backend runs at:
 
 http://localhost:8000
+Notes:
+Stop the backend (press CTRL+C)
+pip uninstall bcrypt -y
+pip install bcrypt==4.0.1
+uvicorn main:app --reload --port 8000
 
 API Docs:
 
